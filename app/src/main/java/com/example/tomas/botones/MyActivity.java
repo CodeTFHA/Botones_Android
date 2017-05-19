@@ -2,6 +2,7 @@ package com.example.tomas.botones;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,7 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 
-public class MyActivity extends ActionBarActivity implements Button.OnClickListener {
+public class MyActivity extends AppCompatActivity implements Button.OnClickListener {
 
     private ImageView fondo;
     private Button amy,aerosmith;
